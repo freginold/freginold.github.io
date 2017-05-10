@@ -1,5 +1,6 @@
+alert(1); //test
 $(document).ready(function(){
-
+alert(2); //test
 // ---------- vars ----------
 
 var imgsDir = "imgs/";
