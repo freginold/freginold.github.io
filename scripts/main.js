@@ -1,6 +1,6 @@
-alert(1); //test
+alert("JS loaded"); //test
 $(document).ready(function(){
-alert(2); //test
+alert("jQuery works"); //test
 // ---------- vars ----------
 
 var imgsDir = "imgs/";
