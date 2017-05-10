@@ -1,0 +1,100 @@
+
+html, body {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+}
+
+body {
+    font-size: 1em;
+}
+
+.parallax {
+    background-image: url(../imgs/bricks.jpg);
+    background-attachment: fixed;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    scroll-behavior: smooth;
+    min-height: 100vh;
+    overflow-x: hidden;
+    overflow-y: auto;
+    min-height: 100%;
+}
+
+.content {
+    display: inline-block;
+    position: relative;
+    height: 100%;
+    width: 62%;
+    font-size: 2.5rem;
+    background-color: white;
+    border-radius: 7px;
+    margin: 12vh 1px 12vh 3em;
+    padding: 10px 20px;
+    z-index: 2;
+    border: 8px ridge #ddddff;
+}
+
+.contentHeader {
+    margin-left: 4%;
+    padding: 0 2px 3px 2px;
+}
+
+.footer {
+    margin-top: 2em;
+    padding: 0.4em 0;
+    font-size: 1.4rem;
+    position: relative;
+    top: 95%;
+    z-index: 5;
+    background-color: #efefef;
+}
+
+.bxslider img {
+    height: 20vh;
+    width: 30hw;
+    margin-left: 10%;
+}
+
+.slideTable {
+    margin: 1px 8%;
+}
+
+.slideText {
+    display: inline-block;
+    position: relative;
+    font-size: 1.5rem;
+    padding: 4px;
+}
+
+.slideSmallText {
+    font-size: 0.55em;
+    font-family: sans-serif;
+    font-style: italic;
+}
+
+.slideLink {
+    font-size: 0.6em;
+    font-family: "Anton", sans-serif;
+    color: #00008b;
+    margin: 2px 4px;
+    padding: 1px;
+}
+
+#navbar {
+    width: 100%;
+    min-height: 4vh;
+    font-size: 1.2em;
+    position: fixed;
+    background-color: #111111;
+    color: #eeeeee;
+    text-align: center;
+    padding: 0.5em 4px;
+    z-index: 5;
+}
+
+#bx-pager img {
+    height: 10vh;
+    width: 10hw;
+}
