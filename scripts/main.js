@@ -51,7 +51,7 @@ function createSlides(slides, slidesEl) {
 
 // ---------- start ----------
 
-$.getScript("https://raw.github.com/username/repo/master/src/file.js", function () {
+$.getScript("http://freginold.github.io/fontSwitcher/fontSwitcher.min.js", function () {
     /* do something when loaded */
     fontSwitcher(['Anton#g', 'Verdana', 'sans-serif'], '.contentHeader');
     fontSwitcher(['Schoolbell#g', 'sans-serif'], '.footer');
