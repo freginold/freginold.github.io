@@ -51,9 +51,12 @@ function createSlides(slides, slidesEl) {
 
 // ---------- start ----------
 
-fontSwitcher(['Anton#g', 'Verdana', 'sans-serif'], '.contentHeader');
-fontSwitcher(['Schoolbell#g', 'sans-serif'], '.footer');
-fontSwitcher(['Exo#g', 'Verdana', 'sans-serif'], '#navbar');
+$.getScript("https://raw.github.com/username/repo/master/src/file.js", function () {
+    /* do something when loaded */
+    fontSwitcher(['Anton#g', 'Verdana', 'sans-serif'], '.contentHeader');
+    fontSwitcher(['Schoolbell#g', 'sans-serif'], '.footer');
+    fontSwitcher(['Exo#g', 'Verdana', 'sans-serif'], '#navbar');
+});
 
 createSlides(extSlides, extSlideshow);
 createSlides(ossSlides, ossSlideshow);
