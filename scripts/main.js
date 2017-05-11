@@ -1,6 +1,4 @@
-alert("JS loaded"); //test
 $(document).ready(function(){
-alert("jQuery works"); //test
 
 // ---------- vars ----------
 
@@ -53,12 +51,9 @@ function createSlides(slides, slidesEl) {
 
 // ---------- start ----------
 
-$.getScript("http://freginold.github.io/fontSwitcher/fontSwitcher.min.js", function () {
-    /* do something when loaded */
-    fontSwitcher(['Anton#g', 'Verdana', 'sans-serif'], '.contentHeader');
-    fontSwitcher(['Schoolbell#g', 'sans-serif'], '.footer');
-    fontSwitcher(['Exo#g', 'Verdana', 'sans-serif'], '#navbar');
-  });
+fontSwitcher(['Anton#g', 'Verdana', 'sans-serif'], '.contentHeader');
+fontSwitcher(['Schoolbell#g', 'sans-serif'], '.footer');
+fontSwitcher(['Exo#g', 'Verdana', 'sans-serif'], '#navbar');
 
 createSlides(extSlides, extSlideshow);
 createSlides(ossSlides, ossSlideshow);
