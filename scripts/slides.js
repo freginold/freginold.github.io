@@ -22,7 +22,7 @@ var extSlides = [
         title: "Follow Hound",
         descr: "Quickly and easily see which Twitter users follow you back.",
         chrome: "https://chrome.google.com/webstore/detail/follow-hound/fgogafjbjejkpclehlmkinbflgkmdmpf",
-        firefox: "https://addons.mozilla.org/en-US/firefox/user/freginold/"
+        firefox: "https://addons.mozilla.org/en-US/firefox/addon/follow-hound/"
     },
     {
         img: "likey128.png",
