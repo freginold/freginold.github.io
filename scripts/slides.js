@@ -21,7 +21,8 @@ var extSlides = [
         img: "followhound128.png",
         title: "Follow Hound",
         descr: "Quickly and easily see which Twitter users follow you back.",
-        chrome: "https://chrome.google.com/webstore/detail/follow-hound/fgogafjbjejkpclehlmkinbflgkmdmpf"
+        chrome: "https://chrome.google.com/webstore/detail/follow-hound/fgogafjbjejkpclehlmkinbflgkmdmpf",
+        firefox: "https://addons.mozilla.org/en-US/firefox/user/freginold/"
     },
     {
         img: "likey128.png",
@@ -48,7 +49,7 @@ var extSlides = [
         descr: "See details about a web page's HTML elements as you hover over them.",
         chrome: "https://chrome.google.com/webstore/detail/showhtml/hpidplbbhlibnefjdbepbinmanddipne",
         opera: "https://addons.opera.com/en/extensions/details/showhtml/"
-    }            
+    }
 ];
 
 // OSS slides
