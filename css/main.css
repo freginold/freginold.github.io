@@ -82,7 +82,7 @@ body {
     padding: 1px;
 }
 
-#navbar {
+#header {
     width: 100%;
     min-height: 4vh;
     font-size: 1.2em;
@@ -92,6 +92,27 @@ body {
     text-align: center;
     padding: 0.5em 4px;
     z-index: 5;
+}
+
+#navbar {
+    float: right;
+    font-size: 1.1em;
+}
+
+#navbar ul {
+    margin: 1px;
+    padding: 1px;
+}
+
+#navbar a {
+    color: #efefef;
+}
+
+.navItem {
+    list-style-type: none;
+    display: inline;
+    padding: 1px 3em 1px 4px;
+    margin: 1px;
 }
 
 #bx-pager img {
