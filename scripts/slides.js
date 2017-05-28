@@ -48,7 +48,8 @@ var extSlides = [
         title: "showHTML",
         descr: "See details about a web page's HTML elements as you hover over them.",
         chrome: "https://chrome.google.com/webstore/detail/showhtml/hpidplbbhlibnefjdbepbinmanddipne",
-        opera: "https://addons.opera.com/en/extensions/details/showhtml/"
+        opera: "https://addons.opera.com/en/extensions/details/showhtml/",
+        firefox: "https://addons.mozilla.org/en-US/firefox/addon/showhtml/"
     }
 ];
 
