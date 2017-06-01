@@ -119,3 +119,25 @@ body {
     height: 10vh;
     width: 10hw;
 }
+
+#contactNav {
+    position: relative;
+    float: right;
+    padding: 1px;
+    margin: 1px 7px;
+    overflow: hidden;
+}
+
+#contactNav img {
+    position: relative;
+    height: 32px;
+    width: 32px;
+    margin: 1px 8px;
+}
+
+.smallNavHeader {
+    font-size: 0.9em;
+    color: black;
+    font-family: Exo, sans-serif;
+    font-weight: 700;
+}
