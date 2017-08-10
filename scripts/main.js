@@ -34,7 +34,10 @@ function createSlides(slides, slidesEl) {
             }
             if (!!slides[i].bitbucket) {
                 tempStr += "<a class='slideLink' href='" + slides[i].bitbucket + "' target='_blank'>BitBucket</a> | ";
-            }            
+            }
+            if (!!slides[i].gitlab) {
+                tempStr += "<a class='slideLink' href='" + slides[i].gitlab + "' target='_blank'>GitLab</a> | ";
+            }
         }
         // remove any trailing pipes
         if (tempStr.slice(-3) == " | ") { tempStr = tempStr.slice(0, tempStr.length - 3); }

@@ -90,5 +90,11 @@ var ossSlides = [
         title: "Dice",
         descr: "Dice slices text nodes up into single-character elements for more detailed styling.",
         github: "https://github.com/freginold/Dice",
+    },
+    {
+        img: "shuffle128.png",
+        title: "shuffle",
+        descr: "JavaScript function to shuffle an array or string.",
+        gitlab: "https://gitlab.com/freginold/shuffle",
     }
 ];
