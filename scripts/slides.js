@@ -50,6 +50,12 @@ var extSlides = [
         chrome: "https://chrome.google.com/webstore/detail/showhtml/hpidplbbhlibnefjdbepbinmanddipne",
         opera: "https://addons.opera.com/en/extensions/details/showhtml/",
         firefox: "https://addons.mozilla.org/en-US/firefox/addon/showhtml/"
+    },
+    {
+        img: "drip128.png",
+        title: "Image Previewer for Dropbox",
+        descr: "Magnify thumbnail images in your Dropbox files folder.",
+        chrome: "https://chrome.google.com/webstore/detail/image-previewer-for-dropb/bgbbodmalbdabpfacpfhigapcoadfeni?hl=en-US&gl=US"
     }
 ];
 
