@@ -56,6 +56,12 @@ var extSlides = [
         title: "Image Previewer for Dropbox",
         descr: "Magnify thumbnail images in your Dropbox files folder.",
         chrome: "https://chrome.google.com/webstore/detail/image-previewer-for-dropb/bgbbodmalbdabpfacpfhigapcoadfeni?hl=en-US&gl=US"
+    },
+    {
+        img: "lifh128.png",
+        title: "LI Feed Hider",
+        descr: "Hide your LinkedIn feed. No frills.",
+        chrome: "https://chrome.google.com/webstore/detail/li-feed-hider/jbbaobenbeallckhcjodbeedefgdhhmc?hl=en-US"
     }
 ];
 
