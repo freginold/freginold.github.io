@@ -88,7 +88,7 @@ var ossSlides = [
     {
         img: "trim128.png",
         title: "trim",
-        descr: "A basic JavaScript trim function to remove lead and trail white space and control characters.",
+        descr: "A basic JavaScript trim function, for HTAs and older browsers that don't support .trim().",
         github: "https://github.com/freginold/trim",
     },
     {
